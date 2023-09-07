@@ -1,0 +1,36 @@
+/* Add some basic CSS for styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(246, 240, 232);
+  margin: 30px;
+  text-shadow: none;
+}
+
+#calculator {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: blue;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  margin-right: 2.5px;
+  text-shadow: 2px 2px rgb(173, 212, 230);
+}
+
+button {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 5px;
+  background-color: lightblue;
+  color: white;
+}
